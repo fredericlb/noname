@@ -1,0 +1,5 @@
+.DS_Store
+dist/**
+node_modules/
+react-three
+npm-debug.log

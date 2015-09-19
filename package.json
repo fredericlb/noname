@@ -1,0 +1,32 @@
+{
+  "name": "noname",
+  "version": "0.1.0",
+  "dependencies": {
+    "babel-runtime": "^5.8.24",
+    "lodash": "^3.10.1",
+    "msgpack-js": "^0.3.0",
+    "react": "^0.13.3",
+    "react-redux": "^2.1.2",
+    "react-three": "^0.6.2",
+    "redux": "^3.0.0",
+    "redux-devtools": "^2.1.2",
+    "redux-thunk": "^0.1.0",
+    "three": "^0.70.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.24",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.18.0",
+    "cssnext-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "jsx-loader": "^0.13.2",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.11.0"
+  }
+}
