@@ -4,7 +4,6 @@ import * as THREE from 'three';
 class MsgPackAsset {
     
     constructor(path) {
-        console.log(path);
         this.path = path;
         this.isLoaded = false;
         this.data = null;
