@@ -9,7 +9,7 @@ module.exports = {
   entry: [
     'webpack-dev-server/client?http://noname-fredericlb.c9.io',
     'webpack/hot/only-dev-server',
-    './js/index.js'
+    './js/scene.js'
   ],
   output: {
     path: __dirname + '/static/',
